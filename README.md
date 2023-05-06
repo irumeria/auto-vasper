@@ -9,7 +9,7 @@ The [recent research](https://arxiv.org/abs/2205.09007) has shown the ability of
 
 **demoNiAl.py** is a demo script for searching ground state energy with the auto-vasper. The brief workflow is as follows:
 
-1. read the results from **atat-vasp** calculation. This will write the record to a given [ASE atom database](https://wiki.fysik.dtu.dk/ase/ase/db/db.html) file.
+1. read the results from [**atat-vasp** calculation](https://arxiv.org/pdf/1907.10151.pdf). This will write the record to a given [ASE atom database](https://wiki.fysik.dtu.dk/ase/ase/db/db.html) file.
 
 ```py
 database = connect("NiAl.db")
