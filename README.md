@@ -1,5 +1,5 @@
 # auto vasper
-this project is for using vasp easily with python. 
+this project is for using vasp(Vienna Ab initio Simulation Package) easily with python. 
 
 There are two aims of this project
 
