@@ -1,0 +1,38 @@
+ running on   24 total cores
+ distrk:  each k-point on   24 cores,    1 groups
+ distr:  one band on    6 cores,    4 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Jan 03 2018 06:08:52) complex          
+  
+ POSCAR found type information on POSCAR  Al Ni
+ POSCAR found :  2 types and       8 ions
+ scaLAPACK will be used
+ WARNING: for PREC=h ENMAX is automatically increase by 25 %
+        this was not the case for versions prior to vasp.4.4
+ WARNING: for PREC=h ENMAX is automatically increase by 25 %
+        this was not the case for versions prior to vasp.4.4
+ LDA part: xc-table for Pade appr. of Perdew
+ found WAVECAR, reading the header
+ WAVECAR: different cutoff or change in lattice found
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ reading WAVECAR
+ the WAVECAR file was read successfully
+ initial charge from wavefunction
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.447014460729E+02   -0.44701E+02   -0.25809E-01  8640   0.515E+00    0.264E-01
+DAV:   2    -0.447050994961E+02   -0.36534E-02   -0.25599E-02 10192   0.198E+00    0.829E-01
+DAV:   3    -0.447008993723E+02    0.42001E-02   -0.16057E-02  9752   0.197E+00    0.940E-02
+DAV:   4    -0.447008891102E+02    0.10262E-04   -0.68679E-04 10800   0.293E-01    0.829E-02
+DAV:   5    -0.447008852183E+02    0.38918E-05   -0.32279E-04  9864   0.369E-01    0.860E-02
+DAV:   6    -0.447008489231E+02    0.36295E-04   -0.10868E-04  9712   0.221E-01    0.162E-02
+DAV:   7    -0.447008420861E+02    0.68370E-05   -0.19948E-05  9848   0.387E-02    0.698E-03
+DAV:   8    -0.447008443222E+02   -0.22361E-05   -0.28244E-06  9624   0.184E-02    0.198E-03
+DAV:   9    -0.447008442302E+02    0.92070E-07   -0.26338E-07  9664   0.541E-03    0.662E-04
+DAV:  10    -0.447008442443E+02   -0.14115E-07   -0.17242E-08  4744   0.174E-03    0.156E-04
+DAV:  11    -0.447008443141E+02   -0.69784E-07   -0.40406E-09  4456   0.618E-04    0.733E-05
+DAV:  12    -0.447008443026E+02    0.11467E-07   -0.11971E-09  4424   0.300E-04    0.244E-05
+DAV:  13    -0.447008442988E+02    0.37653E-08   -0.34282E-10  4408   0.141E-04
+   1 F= -.44700844E+02 E0= -.44700844E+02  d E =0.000000E+00  mag=     0.0000
+ writing wavefunctions

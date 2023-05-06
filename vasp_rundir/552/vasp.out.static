@@ -1,0 +1,35 @@
+ running on   24 total cores
+ distrk:  each k-point on   24 cores,    1 groups
+ distr:  one band on    6 cores,    4 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Jan 03 2018 06:08:52) complex          
+  
+ POSCAR found type information on POSCAR  Al Ni
+ POSCAR found :  2 types and       8 ions
+ scaLAPACK will be used
+ WARNING: for PREC=h ENMAX is automatically increase by 25 %
+        this was not the case for versions prior to vasp.4.4
+ WARNING: for PREC=h ENMAX is automatically increase by 25 %
+        this was not the case for versions prior to vasp.4.4
+ LDA part: xc-table for Pade appr. of Perdew
+ found WAVECAR, reading the header
+ WAVECAR: different cutoff or change in lattice found
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ reading WAVECAR
+ the WAVECAR file was read successfully
+ initial charge from wavefunction
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.411082943033E+02   -0.41108E+02   -0.27607E-01  5616   0.571E+00    0.109E-01
+DAV:   2    -0.411083096877E+02   -0.15384E-04   -0.62983E-04  8144   0.265E-01    0.107E-01
+DAV:   3    -0.411081469856E+02    0.16270E-03   -0.61874E-04  6600   0.294E-01    0.733E-02
+DAV:   4    -0.411082969056E+02   -0.14992E-03   -0.35107E-04  6432   0.310E-01    0.823E-02
+DAV:   5    -0.411081743866E+02    0.12252E-03   -0.11733E-04  6848   0.176E-01    0.123E-02
+DAV:   6    -0.411081755737E+02   -0.11871E-05   -0.16039E-05  6616   0.268E-02    0.697E-03
+DAV:   7    -0.411081792524E+02   -0.36787E-05   -0.16005E-06  6648   0.165E-02    0.121E-03
+DAV:   8    -0.411081780283E+02    0.12242E-05   -0.13976E-07  5528   0.421E-03    0.493E-04
+DAV:   9    -0.411081782536E+02   -0.22533E-06   -0.84532E-09  3080   0.120E-03    0.136E-04
+DAV:  10    -0.411081782617E+02   -0.81473E-08   -0.22201E-09  3024   0.390E-04
+   1 F= -.41108178E+02 E0= -.41108178E+02  d E =0.000000E+00  mag=     0.0000
+ writing wavefunctions

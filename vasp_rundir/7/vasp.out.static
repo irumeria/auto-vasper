@@ -1,0 +1,36 @@
+ running on   24 total cores
+ distrk:  each k-point on   24 cores,    1 groups
+ distr:  one band on    6 cores,    4 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Jan 03 2018 06:08:52) complex          
+  
+ POSCAR found type information on POSCAR  Al Ni
+ POSCAR found :  2 types and       3 ions
+ scaLAPACK will be used
+ WARNING: for PREC=h ENMAX is automatically increase by 25 %
+        this was not the case for versions prior to vasp.4.4
+ WARNING: for PREC=h ENMAX is automatically increase by 25 %
+        this was not the case for versions prior to vasp.4.4
+ LDA part: xc-table for Pade appr. of Perdew
+ found WAVECAR, reading the header
+ WAVECAR: different cutoff or change in lattice found
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ reading WAVECAR
+ the WAVECAR file was read successfully
+ initial charge from wavefunction
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.144062279294E+02   -0.14406E+02   -0.29386E-01  5120   0.699E+00    0.872E-02
+DAV:   2    -0.144062214377E+02    0.64917E-05   -0.37449E-04  5504   0.216E-01    0.490E-02
+DAV:   3    -0.144063038967E+02   -0.82459E-04   -0.21990E-04  5880   0.188E-01    0.647E-02
+DAV:   4    -0.144062355929E+02    0.68304E-04   -0.10856E-04  5792   0.147E-01    0.615E-03
+DAV:   5    -0.144062354880E+02    0.10484E-06   -0.29318E-06  5712   0.147E-02    0.203E-03
+DAV:   6    -0.144062366123E+02   -0.11243E-05   -0.14282E-07  7288   0.414E-03    0.325E-04
+DAV:   7    -0.144062364245E+02    0.18783E-06   -0.71915E-09  2720   0.109E-03    0.148E-04
+DAV:   8    -0.144062364383E+02   -0.13819E-07   -0.12533E-09  2616   0.400E-04    0.310E-05
+DAV:   9    -0.144062364015E+02    0.36813E-07   -0.32989E-10  2600   0.223E-04    0.198E-05
+DAV:  10    -0.144062364128E+02   -0.11274E-07   -0.77392E-11  2584   0.972E-05    0.374E-06
+DAV:  11    -0.144062364114E+02    0.14352E-08   -0.27505E-11  2568   0.541E-05
+   1 F= -.14406236E+02 E0= -.14406236E+02  d E =0.000000E+00  mag=     0.0000
+ writing wavefunctions

@@ -1,0 +1,9 @@
+
+/template/*
+relax/
+static/
+kpoints/
+sqs.py
+*.db
+atat
+*.png

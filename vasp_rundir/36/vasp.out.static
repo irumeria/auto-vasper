@@ -1,0 +1,34 @@
+ running on   24 total cores
+ distrk:  each k-point on   24 cores,    1 groups
+ distr:  one band on    6 cores,    4 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Jan 03 2018 06:08:52) complex          
+  
+ POSCAR found type information on POSCAR  Al Ni
+ POSCAR found :  2 types and       5 ions
+ scaLAPACK will be used
+ WARNING: for PREC=h ENMAX is automatically increase by 25 %
+        this was not the case for versions prior to vasp.4.4
+ WARNING: for PREC=h ENMAX is automatically increase by 25 %
+        this was not the case for versions prior to vasp.4.4
+ LDA part: xc-table for Pade appr. of Perdew
+ found WAVECAR, reading the header
+ WAVECAR: different cutoff or change in lattice found
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ reading WAVECAR
+ the WAVECAR file was read successfully
+ initial charge from wavefunction
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.269901563776E+02   -0.26990E+02   -0.75086E-01 10368   0.102E+01    0.199E-01
+DAV:   2    -0.269909623680E+02   -0.80599E-03   -0.77843E-03 11424   0.116E+00    0.312E-01
+DAV:   3    -0.269899874944E+02    0.97487E-03   -0.37500E-03 11384   0.990E-01    0.150E-01
+DAV:   4    -0.269898746611E+02    0.11283E-03   -0.93780E-04 11176   0.534E-01    0.391E-02
+DAV:   5    -0.269898987038E+02   -0.24043E-04   -0.60332E-05 11688   0.975E-02    0.110E-02
+DAV:   6    -0.269899028601E+02   -0.41563E-05   -0.56210E-06 11816   0.249E-02    0.361E-03
+DAV:   7    -0.269899014353E+02    0.14247E-05   -0.39696E-07 12136   0.855E-03    0.949E-04
+DAV:   8    -0.269899012571E+02    0.17824E-06   -0.48421E-08  9784   0.243E-03    0.244E-04
+DAV:   9    -0.269899012645E+02   -0.73469E-08   -0.30655E-09  5556   0.702E-04
+   1 F= -.26989901E+02 E0= -.26989901E+02  d E =0.000000E+00  mag=     0.0000
+ writing wavefunctions
