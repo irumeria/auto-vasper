@@ -59,7 +59,6 @@ vim template/INCAR
 # set the content of the incar file
 ```
 
-
 1. defining the primitive structure. (ASE Atom object)
 ```py
 atoms = ['Ag', 'Pd', 'Pd']
