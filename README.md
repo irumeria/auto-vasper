@@ -5,7 +5,7 @@ There are two aims of this project
 
 ## Analysis the results of vasp calculation
 
-The [recent research](https://arxiv.org/abs/2205.09007) has shown the ability of optimal combination algorithm in searching the ground state energy of given components. We can use these algorithm to avoid enumerating all the structures of a given supercell.
+The [recent research](https://arxiv.org/abs/2205.09007) has shown the ability of optimal combination algorithm in searching the ground state energy of given components. We can use these algorithms to avoid enumerating all the structures of a given supercell.
 
 **demoNiAl.py** is a demo script for searching ground state energy with the auto-vasper. The brief workflow is as follows:
 
@@ -47,7 +47,7 @@ get_ground_state(cluster_space=cs,
 
 ## Use ICET with Vasp (testing)
 
-ICET declares that their structure derivativing algorithm is purposed by [Gus L. W. Hart and Rodney W. Forcade](https://icet.materialsmodeling.org/moduleref_icet/tools.html#icet.tools.enumerate_structures). It could be faster than the FWZ algorithm using by atat accroding this article : [*Algorithm for generating derivative structures*](http://dx.doi.org/10.1103/PhysRevB.77.224115).
+ICET declares that their structure derivativing algorithm is purposed by [Gus L. W. Hart and Rodney W. Forcade](https://icet.materialsmodeling.org/moduleref_icet/tools.html#icet.tools.enumerate_structures). It could be faster than the FWZ algorithm using by atat accroding to this article : [*Algorithm for generating derivative structures*](http://dx.doi.org/10.1103/PhysRevB.77.224115).
 
 So, I want to test if ICET can work with Vasp instead of ATAT. In **demoAgPd.py**. There are two step in the script as follows: 
 
