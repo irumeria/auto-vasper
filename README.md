@@ -34,6 +34,11 @@ ce = ClusterExpansion(cluster_space=cs, parameters=model.coef_)
 ```
 
 4. search the ground state by EA solver
+
+Notes that the origin [paper&code](https://github.com/hitarth64/quantum-inspired-cluster-expansion) have already implement the function for searching the lowest energy on the whole phase diagram
+
+here I also implement the part for searching ground state **on each component ratio**. The mode can be switch by the parameter 'cross_element'. 
+
 ```py
 get_ground_state(cluster_space=cs,
                 cluster_expansion=ce,
@@ -41,9 +46,13 @@ get_ground_state(cluster_space=cs,
                 regression_model_weight=model.intercept_,
                 elements = atom_type,
                 elements_label = chemical_symbols,
-                generation=100,
-                population=300)
+                generation=100, 
+                population=100,
+                cross_element=False,
+                element_ratio=[5,3])
 ```
+Here the parameter 'element_ratio=[5,3]' means the atoms amount of 'Ni' and 'Al' in the superstructure is 5:3. 
+
 
 ## Use ICET with Vasp (testing)
 

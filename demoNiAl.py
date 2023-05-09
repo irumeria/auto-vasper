@@ -104,4 +104,7 @@ if __name__ == "__main__":
                     elements = atom_type,
                     elements_label = chemical_symbols,
                     generation=100,
-                    population=300)
+                    population=100,
+                    cross_element=False,
+                    element_ratio=[5,3]
+                    )

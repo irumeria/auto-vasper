@@ -3,6 +3,8 @@
 relax/
 static/
 kpoints/
+autovasper/__pycache__
+autovasper/gasearch/__pycache__
 sqs.py
 *.db
 atat
