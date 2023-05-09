@@ -211,7 +211,7 @@ class VaspIO():
 
 
     def archive_atat_record(atat_workdir, database):
-        subfolders = [ f.path for f in os.scandir("vasp_rundir") if f.is_dir() ]
+        subfolders = [ f.path for f in os.scandir(atat_workdir) if f.is_dir() ]
 
         for fld in subfolders:
             try:
