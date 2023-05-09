@@ -35,7 +35,7 @@ ce = ClusterExpansion(cluster_space=cs, parameters=model.coef_)
 
 4. search the ground state by EA solver
 
-Notes that the origin [paper&code](https://github.com/hitarth64/quantum-inspired-cluster-expansion) have already implement the function for searching the lowest energy on the whole phase diagram
+Notes that the referenced [paper&code](https://github.com/hitarth64/quantum-inspired-cluster-expansion) have already implement the function for searching the lowest energy on the whole phase diagram
 
 here I also implement the part for searching ground state **on specific component ratio**. The mode can be switch by the parameter 'cross_element'. 
 
